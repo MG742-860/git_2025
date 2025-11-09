@@ -71,6 +71,9 @@ git merge --no-ff feature-branch # 非快速前进
 # 使用变基命令将当前分支的提交在目标分支上重新应用，创建线性的提交历史，不产生合并提交
 git rebase branch
 ```
+![alt](testpic/Q3f2.png)
+![alt](testpic/Q3f2-2.png)
+
 #### 方法三：cherry-pick
 ```bash
 # 将指定提交的修改应用到当前分支，只提交特定的提交，而不是整个分支
@@ -79,3 +82,4 @@ git cherry-pick <commit-hash>
 # 应用一系列连续的提交
 git cherry-pick <start-commit>..<end-commit>
 ```
+![alt](testpic/Q3f3.png)
